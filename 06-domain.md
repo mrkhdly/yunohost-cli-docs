@@ -13,6 +13,7 @@ yunohost domain {list,info,add,remove,main-domain,url-available,action-run,dyndn
 | `add <domain>` | Create a custom domain | `--ignore-dyndns`, `--dyndns-recovery-password`, `--install-letsencrypt-cert` |
 | `remove <domain>` | Delete domain | `-r` (remove apps), `-f` (force), `--ignore-dyndns`, `--dyndns-recovery-password` |
 | `main-domain` | Check/change main domain | `-n NEW_MAIN_DOMAIN` |
+| `maindomain` | Alias for `main-domain` (deprecated) | `-n NEW_MAIN_DOMAIN` |
 | `url-available <domain> <path>` | Check web path availability | — |
 | `action-run <domain> <action>` | Run domain action | `-a ARGS` |
 

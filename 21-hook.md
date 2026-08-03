@@ -10,7 +10,7 @@ yunohost hook {add,remove,info,list,callback,exec} ... [-h]
 |---------|-------------|-------------|
 | `add <app> <file>` | Store hook script to filesystem | — |
 | `remove <app>` | Remove hook scripts | — |
-| `info {action} <name>` | Get hook information | 17 action types available |
+| `info {action} <name>` | Get hook information | 18 action types available |
 | `list {action}` | List available hooks for an action | `-l {name,priority,folder}`, `-i` (show-info) |
 | `callback {action}` | Execute all scripts bound to an action | `-n HOOKS`, `-a ARGS`, `-d CHDIR` |
 | `exec <path>` | Execute hook from a file | `-a ARGS`, `--raise-on-error`, `-d CHDIR` |

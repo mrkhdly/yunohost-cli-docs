@@ -83,7 +83,9 @@ yunohost
 ## Notes
 
 - ⚠️ `yunohost dyndns` is **deprecated** — use `yunohost domain dyndns`
+- ⚠️ `yunohost domain maindomain` is **deprecated** — use `yunohost domain main-domain`
 - `log display` is an alias for `log show`
+- `log share` is an alias for `log show --share`; `log show --share` itself is **deprecated**
 - `migrations migrate` is an alias for `migrations run`
 - Many commands have `--full` and `--export` flags for API usage
 - Serialized arguments use the format: `"key1=value1&key2=value2"`
