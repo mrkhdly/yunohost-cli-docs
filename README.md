@@ -59,7 +59,7 @@ yunohost
 │   ├── dns ─── suggest, push
 │   └── cert ─── status, install, renew
 ├── app ─── catalog, search, manifest, list, info, map, install, remove, upgrade,
-│           change-url, change-label, setting, shell, register-url, makedefault,
+│           change-url, change-label, setting, shell, db, register-url, makedefault,
 │           dismiss-notification, ssowatconf
 │   ├── action ─── list, run
 │   └── config ─── get, set
